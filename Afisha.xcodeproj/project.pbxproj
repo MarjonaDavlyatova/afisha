@@ -6,8 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXFileReference section */
 		A1D8E8B92D9D4ADB0052169D /* Afisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+/* Begin PBXContainerItemProxy section */
+		A1D8E8D02D9D4ADE0052169D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8E8B12D9D4ADB0052169D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D8E8B82D9D4ADB0052169D;
+			remoteInfo = Afisha;
+		};
+		A1D8E8DA2D9D4ADE0052169D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D8E8B12D9D4ADB0052169D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D8E8B82D9D4ADB0052169D;
+			remoteInfo = Afisha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1D8E8B92D9D4ADB0052169D /* Afisha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Afisha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D8E8CF2D9D4ADE0052169D /* AfishaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfishaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D8E8D92D9D4ADE0052169D /* AfishaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfishaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 006ebf4 (Initial Commit)
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,6 +53,19 @@
 			path = Afisha;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8D22D9D4ADE0052169D /* AfishaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AfishaTests;
+			sourceTree = "<group>";
+		};
+		A1D8E8DC2D9D4ADE0052169D /* AfishaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AfishaUITests;
+			sourceTree = "<group>";
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +76,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8CC2D9D4ADE0052169D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8E8D62D9D4ADE0052169D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				A1D8E8BB2D9D4ADB0052169D /* Afisha */,
+<<<<<<< HEAD
+=======
+				A1D8E8D22D9D4ADE0052169D /* AfishaTests */,
+				A1D8E8DC2D9D4ADE0052169D /* AfishaUITests */,
+>>>>>>> 006ebf4 (Initial Commit)
 				A1D8E8BA2D9D4ADB0052169D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +113,11 @@
 			isa = PBXGroup;
 			children = (
 				A1D8E8B92D9D4ADB0052169D /* Afisha.app */,
+<<<<<<< HEAD
+=======
+				A1D8E8CF2D9D4ADE0052169D /* AfishaTests.xctest */,
+				A1D8E8D92D9D4ADE0052169D /* AfishaUITests.xctest */,
+>>>>>>> 006ebf4 (Initial Commit)
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +147,55 @@
 			productReference = A1D8E8B92D9D4ADB0052169D /* Afisha.app */;
 			productType = "com.apple.product-type.application";
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8CE2D9D4ADE0052169D /* AfishaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D8E8E72D9D4ADE0052169D /* Build configuration list for PBXNativeTarget "AfishaTests" */;
+			buildPhases = (
+				A1D8E8CB2D9D4ADE0052169D /* Sources */,
+				A1D8E8CC2D9D4ADE0052169D /* Frameworks */,
+				A1D8E8CD2D9D4ADE0052169D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D8E8D12D9D4ADE0052169D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A1D8E8D22D9D4ADE0052169D /* AfishaTests */,
+			);
+			name = AfishaTests;
+			packageProductDependencies = (
+			);
+			productName = AfishaTests;
+			productReference = A1D8E8CF2D9D4ADE0052169D /* AfishaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D8E8D82D9D4ADE0052169D /* AfishaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D8E8EA2D9D4ADE0052169D /* Build configuration list for PBXNativeTarget "AfishaUITests" */;
+			buildPhases = (
+				A1D8E8D52D9D4ADE0052169D /* Sources */,
+				A1D8E8D62D9D4ADE0052169D /* Frameworks */,
+				A1D8E8D72D9D4ADE0052169D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D8E8DB2D9D4ADE0052169D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A1D8E8DC2D9D4ADE0052169D /* AfishaUITests */,
+			);
+			name = AfishaUITests;
+			packageProductDependencies = (
+			);
+			productName = AfishaUITests;
+			productReference = A1D8E8D92D9D4ADE0052169D /* AfishaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +209,17 @@
 					A1D8E8B82D9D4ADB0052169D = {
 						CreatedOnToolsVersion = 16.3;
 					};
+<<<<<<< HEAD
+=======
+					A1D8E8CE2D9D4ADE0052169D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A1D8E8B82D9D4ADB0052169D;
+					};
+					A1D8E8D82D9D4ADE0052169D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A1D8E8B82D9D4ADB0052169D;
+					};
+>>>>>>> 006ebf4 (Initial Commit)
 				};
 			};
 			buildConfigurationList = A1D8E8B42D9D4ADB0052169D /* Build configuration list for PBXProject "Afisha" */;
@@ -113,6 +237,11 @@
 			projectRoot = "";
 			targets = (
 				A1D8E8B82D9D4ADB0052169D /* Afisha */,
+<<<<<<< HEAD
+=======
+				A1D8E8CE2D9D4ADE0052169D /* AfishaTests */,
+				A1D8E8D82D9D4ADE0052169D /* AfishaUITests */,
+>>>>>>> 006ebf4 (Initial Commit)
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +254,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8CD2D9D4ADE0052169D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8E8D72D9D4ADE0052169D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,8 +281,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 /* End PBXSourcesBuildPhase section */
 
+=======
+		A1D8E8CB2D9D4ADE0052169D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D8E8D52D9D4ADE0052169D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1D8E8D12D9D4ADE0052169D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D8E8B82D9D4ADB0052169D /* Afisha */;
+			targetProxy = A1D8E8D02D9D4ADE0052169D /* PBXContainerItemProxy */;
+		};
+		A1D8E8DB2D9D4ADE0052169D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D8E8B82D9D4ADB0052169D /* Afisha */;
+			targetProxy = A1D8E8DA2D9D4ADE0052169D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+>>>>>>> 006ebf4 (Initial Commit)
 /* Begin XCBuildConfiguration section */
 		A1D8E8E32D9D4ADE0052169D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -145,14 +323,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 63C543TAVK;
+=======
+>>>>>>> 006ebf4 (Initial Commit)
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Afisha/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+<<<<<<< HEAD
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+=======
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+>>>>>>> 006ebf4 (Initial Commit)
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -173,14 +360,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = 63C543TAVK;
+=======
+>>>>>>> 006ebf4 (Initial Commit)
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Afisha/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+<<<<<<< HEAD
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+=======
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+>>>>>>> 006ebf4 (Initial Commit)
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +509,77 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8E82D9D4ADE0052169D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMX.AfishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afisha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Afisha";
+			};
+			name = Debug;
+		};
+		A1D8E8E92D9D4ADE0052169D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMX.AfishaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Afisha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Afisha";
+			};
+			name = Release;
+		};
+		A1D8E8EB2D9D4ADE0052169D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMX.AfishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Afisha;
+			};
+			name = Debug;
+		};
+		A1D8E8EC2D9D4ADE0052169D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DMX.AfishaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Afisha;
+			};
+			name = Release;
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +601,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
+=======
+		A1D8E8E72D9D4ADE0052169D /* Build configuration list for PBXNativeTarget "AfishaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8E8E82D9D4ADE0052169D /* Debug */,
+				A1D8E8E92D9D4ADE0052169D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D8E8EA2D9D4ADE0052169D /* Build configuration list for PBXNativeTarget "AfishaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D8E8EB2D9D4ADE0052169D /* Debug */,
+				A1D8E8EC2D9D4ADE0052169D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+>>>>>>> 006ebf4 (Initial Commit)
 /* End XCConfigurationList section */
 	};
 	rootObject = A1D8E8B12D9D4ADB0052169D /* Project object */;

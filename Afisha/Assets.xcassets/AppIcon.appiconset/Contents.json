@@ -1,7 +1,10 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "Lovepik_com-828738310-Original commercial camera phone icon element.png",
+=======
+>>>>>>> 006ebf4 (Initial Commit)
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
