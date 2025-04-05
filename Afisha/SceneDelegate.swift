@@ -14,6 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 <<<<<<< HEAD
+<<<<<<< HEAD
          guard let windowScene = (scene as? UIWindowScene) else { return }
 
          let window = UIWindow(windowScene: windowScene)
@@ -29,6 +30,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
 >>>>>>> 006ebf4 (Initial Commit)
+=======
+         guard let windowScene = (scene as? UIWindowScene) else { return }
+
+         let window = UIWindow(windowScene: windowScene)
+         window.rootViewController = ViewController()
+         self.window = window
+         window.makeKeyAndVisible()
+     }
+>>>>>>> 496f1d1 (test)
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

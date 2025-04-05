@@ -16,10 +16,13 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
 >>>>>>> 006ebf4 (Initial Commit)
+=======
+>>>>>>> 496f1d1 (test)
 				</dict>
 			</array>
 		</dict>
