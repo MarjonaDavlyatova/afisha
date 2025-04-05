@@ -51,6 +51,10 @@ class ViewController: UIViewController {
         addHeader(info)
         setupScroll()
         drawSeats(info.seats)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
+            self.centerScrollView()
+        }
+
     }
 
     func addHeader(_ info: HallInfo) {
@@ -117,12 +121,15 @@ class ViewController: UIViewController {
 
     func setupScroll() {
         scrollView.maximumZoomScale = 3
-        scrollView.minimumZoomScale = 1
+        scrollView.minimumZoomScale = 0.8
         scrollView.showsVerticalScrollIndicator = false
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.delegate = self
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(scrollView)
+        
+        scrollView.contentInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+
 
         schemeView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.addSubview(schemeView)
@@ -139,6 +146,13 @@ class ViewController: UIViewController {
             schemeView.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
             schemeView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height * 0.6)
         ])
+    }
+    
+    func centerScrollView(){
+        let offsetX = max((scrollView.contentSize.width - scrollView.bounds.width)/2,0)
+        let offsetY = max((scrollView.contentSize.height - scrollView.bounds.height)/2,0)
+        scrollView.setContentOffset(CGPoint(x: offsetX, y: offsetY), animated: false)
+
     }
 
     func drawSeats(_ seats: [Seat]) {
